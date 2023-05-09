@@ -1,0 +1,24 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Alkatra', cursive;
+     background: #6a6969;
+
+ }
+
+ canvas {
+     /* background: #000; */
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+     border-radius: 10px;
+ }
