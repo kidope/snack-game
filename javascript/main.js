@@ -145,6 +145,7 @@ const changeSnakePosition = () => {
 
 function drawApple() {
     ctx.fillStyle = "pink";
+
     ctx.fillRect(appleX * tileCount, appleY * tileCount, tileSize, tileSize);
 }
 
